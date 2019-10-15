@@ -1,0 +1,193 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+.container{
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.aa-input-container {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  /* width: 780px; */
+  /* background:black; */
+}
+
+.tickets-form{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aa-input-search {
+  width: 600px;
+  padding: 12px 28px 12px 12px;
+  display: table-cell;
+  border: 2px solid #e4e4e4;
+  border-radius: 4px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  font-family: "Montserrat", sans-serif;
+  /* box-shadow: 4px 4px 0 rgba(241, 241, 241, 0.35); */
+  font-size: 11px;
+  box-sizing: border-box;
+  /* color: #333; */
+   color: black;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button,
+.aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
+  display: none;
+}
+.aa-input-search:focus {
+  outline: 0;
+  border-color: #3a96cf;
+  box-shadow: 4px 4px 0 rgba(58, 150, 207, 0.1);
+}
+/* .aa-input-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+ 
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #e4e4e4;
+  pointer-events: none;
+} */
+.aa-hint {
+  color: #e4e4e4;
+}
+.aa-dropdown-menu {
+  background-color: #fff;
+  border: 2px solid rgba(228, 228, 228, 0.6);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-top-width: 0;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 4px 4px 0 rgba(241, 241, 241, 0.35);
+  font-size: 11px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* margin: 10px 0 0 450px; */
+  width: 600px;
+  /* width: 500px; */
+}
+.aa-suggestion {
+  padding: 6px 12px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aa-suggestion > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.aa-suggestion span:first-child {
+  color: #333;
+  
+}
+.aa-suggestion span:last-child {
+ 
+  color: rgba(41, 70, 97, 0.8);
+ 
+}
+.aa-suggestion img {
+  max-width: 80px;
+  margin-right: 10px;
+}
+.aa-suggestions-category {
+  text-transform: uppercase;
+  
+  border-bottom: 2px solid rgba(228, 228, 228, 0.6);
+  border-top: 2px solid rgba(228, 228, 228, 0.6);
+  padding: 10px;
+  
+  padding: 6px 12px;
+  text-align: left;
+}
+p{
+  padding-left: 0px;
+  margin-top: 2px;
+  font-size: xx-small;
+  word-break: break-all;
+}
+
+ em{
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(135, 200, 252, 0.2);
+  /* background-color:#cfe5f7; */
+  color: #489be8;
+  padding: 2px 0 2px 2px;
+}
+
+.aa-suggestion span:first-child em, .aa-suggestion span:last-child em {
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(135, 200, 252, 0.2);
+  /* background-color:#cfe5f7; */
+  color: #489be8;
+  padding: 2px 0 2px 2px;
+}
+.aa-dropdown-menu > div {
+  /* display: inline-block;  */
+  width: 100%; 
+  vertical-align: top; 
+}
+.aa-empty {
+  padding: 6px 12px;
+}
+
+.product-header{
+  padding-left: 20px;
+  text-align: right;
+  font-size: 10px;
+  width: 20%;
+  color: lightgray;
+  font-family: "Montserrat", sans-serif;
+  /* word-break: break-all; */
+}
+.product-des{
+  padding-left: 15px;
+  font-size: 11.5px;
+  text-align: left;
+  width: 80%;
+  border-left: 1px solid rgba(228, 228, 228, 0.6);
+  margin-left: 15px;
+  /* font: inherit; */
+  font-weight: 510;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgba(41, 70, 97, 0.8);
+
+}
+
+.submit-button:hover{
+  background-color: lightgray;
+}
+
+.product-des:hover, .product-des-cursor  {
+  background-color: #cfe5f7;
+}
